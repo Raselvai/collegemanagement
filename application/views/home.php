@@ -1,10 +1,17 @@
 <div class="container">
+	<div class="admin-header text-center">
+		<h4>Admin $ Co Admin Login</h4>
+	</div>
 	<div class="row">
-		<div class="col-md-6 border border-success px-3">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui vel nam, illo repudiandae blanditiis ipsum hic nihil ipsam beatae dignissimos dicta alias aliquam, voluptate excepturi, id iusto sint magnam distinctio!
+		<div class="col-6 text-center">
+		<?php if(count($chkAdminExist)){?>
+
+		<?php }else{ ?>	
+			<a class="btn btn-primary" href="<?php echo  base_url('welcome/adminregister')?>">Admin Register</a>
+		<?php }?>
 		</div>
-		<div class="col-md-6 border border-success px-3">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem excepturi pariatur, dicta molestias eligendi assumenda aut voluptas facilis? Ullam natus, quod tempore optio suscipit nesciunt alias similique blanditiis soluta!
+		<div class="col-6 text-center">
+			<a class="btn btn-primary" href="<?php echo  base_url('welcome/login')?>">Admin Login</a>
 		</div>
 	</div>
 </div>

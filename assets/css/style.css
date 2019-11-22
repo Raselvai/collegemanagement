@@ -1,0 +1,19 @@
+.admin-header{
+    margin-top: 150px;
+}
+.registration-header h4{
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.registration-header {
+    margin-top: 85px;
+}
+.admin-header h4{
+    font-weight: 700;
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgb(21, 89, 153);
+    color: #fff;
+    border-radius: 3px;
+}
